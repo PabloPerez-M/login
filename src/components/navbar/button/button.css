@@ -1,0 +1,13 @@
+#divBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#btnTheme{
+    border-radius: 10px;
+    padding: 5px;
+    background-color: grey;
+    color: white;
+}
