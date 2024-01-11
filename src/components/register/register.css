@@ -14,7 +14,7 @@
     border: 2px solid rgb(100, 161, 212);
     background-color: rgb(161, 196, 225);
     width: 50vw;
-    height: 50vh;
+    height: 55vh;
     margin-top: 20px;
 }
 
@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: center;
     justify-content:end ;
-    height: 10vh;
+    height: 8vh;
     width: 40vw;
 }
 
@@ -57,7 +57,6 @@ button{
     background-color: rgb(151, 190, 151);
     padding: 7px 13px;
     border-radius: 8px;
-    margin: 10px;
     width: fit-content;
 }
 

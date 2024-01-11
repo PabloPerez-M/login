@@ -12,16 +12,12 @@ const App: React.FC = () => {
     <Router>
       <ThemeProvider>
         <AuthProvider>
-          <div>
             <Header />
-            <div>
               <Routes>
                 <Route path="/" element={<Login />} />
                 <Route path="/registration" element={<RegistrationForm />} />
                 <Route path="/welcome" element={<WelcomePage />} />
               </Routes>
-            </div>
-          </div>
         </AuthProvider>
       </ThemeProvider>
     </Router>
